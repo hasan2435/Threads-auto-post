@@ -14,7 +14,6 @@ Aplikasi web untuk login/menyambungkan akun Threads dan memposting ke Threads, t
   - Izin yang dibutuhkan: `threads_basic` dan `threads_content_publish`
   - Alur: buat media container, lalu `threads_publish`. Teks bisa memakai `auto_publish_text=true`.
   - Batas: 500 karakter, 250 post per akun per 24 jam. API tidak punya penjadwalan bawaan.
-- `.github/workflows/threads-daily.yml` — contoh workflow GitHub Actions harian.
 
 ## Setup skrip (penting)
 1. Buat Meta Developer App dengan use case Threads API.
@@ -25,4 +24,4 @@ Aplikasi web untuk login/menyambungkan akun Threads dan memposting ke Threads, t
 ## Catatan
 - Akun Threads harus tertaut dulu; penerbitan sungguhan butuh persetujuan per postingan sesuai aturan Meta, atau skrip ini dengan token di GitHub Secrets.
 - Postingan alert saham adalah hasil screening, bukan rekomendasi pasti, dan selalu disertai disclaimer.
-- Kode sumber aplikasi web lengkap versi web lengkapnya tidak diekspor sebagai kode sumber dari repo ini; repo ini berisi skrip API resmi, workflow, dan deskripsi proyek.
+- Repo ini berisi skrip API resmi dan deskripsi proyek; versi web lengkapnya tidak diekspor sebagai kode sumber dari repo ini.
